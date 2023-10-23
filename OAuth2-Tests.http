@@ -1,0 +1,24 @@
+### Get authorization code
+// @no-redirect
+GET http://{{host}}/auth_code.php/authorize
+    ?response_type=code
+    &client_id={{client_id}}
+    &state={{state}}
+    &scope=basic%20email
+
+### Exchange authorization code for access token
+POST http://{{host}}/auth_code.php/access_token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type = authorization_code &
+client_id = {{client_id}} &
+client_secret = {{client_secret}} &
+scope = basic%20email &
+code = {{auth_code}}
+
+### Request users info
+GET http://{{host}}/api.php/users
+Accept: application/json
+Authorization: Bearer {{access_token}}
+
+###
