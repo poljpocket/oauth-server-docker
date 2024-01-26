@@ -1,24 +1,32 @@
 ### Get authorization code
 // @no-redirect
-GET http://{{host}}/auth_code.php/authorize
+GET http://{{host}}/sso/authorize
     ?response_type=code
     &client_id={{client_id}}
     &state={{state}}
-    &scope=basic%20email
+    &scope=basic email groups
 
 ### Exchange authorization code for access token
-POST http://{{host}}/auth_code.php/access_token
+POST http://{{host}}/sso/access_token
 Content-Type: application/x-www-form-urlencoded
 
 grant_type = authorization_code &
 client_id = {{client_id}} &
 client_secret = {{client_secret}} &
-scope = basic%20email &
 code = {{auth_code}}
 
 ### Request users info
-GET http://{{host}}/api.php/users
+GET http://{{host}}/api/userinfo
 Accept: application/json
 Authorization: Bearer {{access_token}}
+
+### Get a new access token with refresh token
+POST http://{{host}}/access_token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type = refresh_token &
+client_id = {{client_id}} &
+client_secret = {{client_secret}} &
+refresh_token = {{refresh_token}}
 
 ###

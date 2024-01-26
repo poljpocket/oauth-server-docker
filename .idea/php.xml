@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/league/event" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpstan/phpstan-phpunit" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/composer" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/oauth-server/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/slim/slim" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/league/event" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/composer" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/oauth-server/examples/vendor/psr/http-factory" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <PhpStanConfiguration tool_path="$PROJECT_DIR$/oauth-server/vendor/bin/phpstan" />
+    </PhpStan_settings>
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/oauth-server/examples/vendor/autoload.php" />
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/oauth-server/phpunit.xml.dist" custom_loader_path="$PROJECT_DIR$/oauth-server/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
